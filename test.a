@@ -1,0 +1,9 @@
+begin : li r0, r0, 10
+li r0, r1, 20
+li r0, r2, -10
+li r0, r3, -20
+begin2 :add r0, r2, r0
+add r1, r3, r1
+slt r0, r1, r2
+li r3, r3, 0
+beq r3, r2, begin
